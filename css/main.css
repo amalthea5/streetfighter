@@ -1,3 +1,4 @@
+/* Overall styles */
 body {
 	background-color: black;
 }
@@ -10,6 +11,7 @@ body {
 	height: 500px;
 }
 
+/* Ryu and Hadouken Styles */
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	background-repeat: no-repeat;
 }
@@ -53,6 +55,18 @@ body {
 .ryu-cool {
 	background-image: url('../images/ryu-cool.gif');
 }
+
+/* Text Styles */
+
+
+
+
+
+
+
+
+
+
 
 
 
