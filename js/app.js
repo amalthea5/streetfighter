@@ -38,6 +38,7 @@ $(document).keydown(function (e) {
     $('.ryu-cool').hide();
     $('.ryu-still').show();
   }
+});
 
 function playHadouken () {
 	$('#hadouken-sound') [0].volume = 0.5;
