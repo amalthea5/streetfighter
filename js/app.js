@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    doIntro();
     document.getElementById('sf-theme').volume = 0.2;
     $('.ryu').mouseenter(function() {
   	$('.ryu-still').hide();
@@ -45,3 +46,22 @@ function playHadouken () {
 	$('#hadouken-sound') [0].load();
 	$('#hadouken-sound') [0].play();
 }
+
+function doIntro() {
+  $('.sf-logo').fadeIn(3500, function () {
+    $(this).fadeOut(1000, function() {
+      $('.brought-by').fadeIn(1500, function() {
+        $(this).fadeOut(1000, function() {
+          $('.jquery-logo').fadeIn(1500, function() {
+            $(this).fadeOut(1500, function() {
+              $('.how-to').fadeIn(1000);
+            });
+          })
+        })
+      })
+    })
+  })
+}
+
+
+
